@@ -1,0 +1,30 @@
+
+body {
+	text-align: center;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	color: white;
+}
+
+#puzzlearea, .tile {
+	padding: 0px;
+}
+
+.tile {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	margin: 0px;
+	border: 1.75px solid black;
+	font-size: 40pt;
+	color: black;
+}
+
+
+
+
