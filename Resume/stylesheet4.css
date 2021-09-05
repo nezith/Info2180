@@ -1,0 +1,134 @@
+* {
+        margin: 0; 
+        padding: 0;
+}
+
+
+body { 
+        font: 16px Helvetica, Sans-Serif; 
+        line-height: 24px; 
+        background: url(light-blue-noise.jpg); 
+}
+
+
+.clear { 
+        clear: both; 
+}
+
+
+#fullpage { 
+        width: 800px; 
+        margin: 40px auto 60px;
+        color: white;
+        text-shadow: #000 0px 0px 6px, #000 0px 0px 6px, #000 0px 0px 6px;
+}
+
+
+#pic { 
+        position:absolute;
+        top:40px;
+        right:350px;
+        margin: -30px 0 0 0;
+        -ms-transform: rotate(-3.5deg); /* Internet Explorer */
+        -moz-transform:rotate(-3.5deg);/*Mozilla Firefox*/
+        -webkit-transform: rotate(-3.5deg); /* Chrome, Safari, Opera */
+        transform: rotate(-3.5deg);
+
+        /*Image Shadow*/
+        -moz-box-shadow:    2.5px 2.5px 2.5px 2.5px #999; /*Firefox*/
+        -webkit-box-shadow: 2.5px 2.5px 2.5px 2.5px #999; /*Chrome*/
+        box-shadow:         2.5px 2.5px 2.5px 2.5px #999;
+}
+
+
+h1 { 
+        margin: 0 0 16px 0; 
+        padding: 0 0 16px 0; 
+        font-size: 42px; 
+        font-weight: bold; 
+        letter-spacing: -2px; 
+        border-bottom: 1px solid #999; 
+}
+
+
+h2 { 
+        font-size: 20px; 
+        margin: 0 0 6px 0; 
+        position: relative; 
+}
+
+
+h2 span { 
+        position: absolute; 
+        bottom: 0; 
+        right: 0; 
+        font-style: italic; 
+        font-family: Georgia, Serif; 
+        font-size: 16px; 
+        color: lightgray; 
+        font-weight: normal;
+        text-shadow: #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px;
+}
+
+
+p { 
+        margin: 0 0 16px 0; 
+}
+
+
+a { 
+        color: lightgray; 
+        text-decoration: none; 
+        border-bottom: 1px dotted #999;
+        /*text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;*/
+}
+
+
+a:hover { 
+        border-bottom-style: solid; 
+        color: darkgray; 
+}
+
+
+ul { 
+        margin: 0 0 32px 17px; 
+}
+
+
+#about-me { 
+        width: 500px; 
+        float: left; 
+}
+
+
+#about-me p { 
+        font-family: Georgia, Serif; 
+        font-style: italic;
+        text-shadow: #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px; 
+        /*color: #666;*/ 
+}
+
+
+dt { 
+        font-style: italic; 
+        font-weight: bold; 
+        font-size: 18px; 
+        text-align: right; 
+        padding: 0 26px 0 0; 
+        width: 150px; float: left; 
+        height: 100px; 
+        border-right: 1px solid #999;  
+}
+
+
+dd { 
+        width: 600px; 
+        float: right; 
+}
+
+
+dd.clear { 
+        float: none; 
+        margin: 0; 
+        height: 15px; 
+}
